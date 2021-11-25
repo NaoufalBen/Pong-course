@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
+
 public class Ball : MonoBehaviour
 {
     public float speed = 200f;
@@ -11,6 +11,8 @@ public class Ball : MonoBehaviour
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody2D>();
+        AddStartingForce();
+
     }
 
     public void ResetPosition()

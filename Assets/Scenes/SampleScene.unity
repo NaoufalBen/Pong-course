@@ -382,7 +382,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 186060780}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 64ce6a580ffbc1d47b675a79e0737b59, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -485,7 +485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &225641676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,8 +515,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"paddleR","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PaddleL","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 743792319}
 --- !u!114 &225641678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,7 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09437c5bf82b80e418952576210681e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  address: 
+  address: /pos
 --- !u!114 &225641679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1770,7 +1771,6 @@ GameObject:
   - component: {fileID: 1137586377}
   - component: {fileID: 1137586380}
   - component: {fileID: 1137586379}
-  - component: {fileID: 1137586381}
   m_Layer: 0
   m_Name: G
   m_TagString: Untagged
@@ -1891,20 +1891,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1137586381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137586376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c7d44913ec355d4ab472cd2989293f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  ball: {fileID: 1438874615}
 --- !u!1 &1153372046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2487,7 +2473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438874612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.22, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2894,7 +2880,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2092694031}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 64ce6a580ffbc1d47b675a79e0737b59, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
