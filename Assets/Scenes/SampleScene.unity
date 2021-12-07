@@ -1245,7 +1245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: 1.24, z: -10}
+  m_LocalPosition: {x: 0.09, y: 0.63, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2995,7 +2995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"D","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"G","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"D","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"G","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"countWin","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"countLose","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1269881862}
     - {fileID: 863037706}
