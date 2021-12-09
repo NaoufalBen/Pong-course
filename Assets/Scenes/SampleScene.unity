@@ -717,13 +717,13 @@ GameObject:
   m_Component:
   - component: {fileID: 225641681}
   - component: {fileID: 225641680}
-  - component: {fileID: 225641679}
   - component: {fileID: 225641678}
   - component: {fileID: 225641677}
   - component: {fileID: 225641676}
   - component: {fileID: 225641682}
   - component: {fileID: 225641684}
   - component: {fileID: 225641683}
+  - component: {fileID: 225641686}
   m_Layer: 0
   m_Name: OSC
   m_TagString: Untagged
@@ -778,30 +778,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: /pot
---- !u!114 &225641679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 225641675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 464088183d2a1484ab8fb64e356c9f5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _autoConnect: 1
-  _closeOnPause: 0
-  _mapBundle: {fileID: 0}
-  _workInEditor: 0
-  _localHostMode: 0
-  _localPortMode: 2
-  _localReceiver: {fileID: 0}
-  _localHost: 192.168.157.45
-  _localPort: 7000
-  _remoteHost: 192.168.157.46
-  _remotePort: 7000
-  _useBundle: 0
 --- !u!114 &225641680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,6 +850,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   address: /btn2
+--- !u!114 &225641686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225641675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464088183d2a1484ab8fb64e356c9f5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoConnect: 1
+  _closeOnPause: 0
+  _mapBundle: {fileID: 0}
+  _workInEditor: 0
+  _localHostMode: 0
+  _localPortMode: 2
+  _localReceiver: {fileID: 0}
+  _localHost: 192.168.1.152
+  _localPort: 7000
+  _remoteHost: 192.168.1.152
+  _remotePort: 7000
+  _useBundle: 0
 --- !u!1 &281919853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,7 +3015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":0.01,"$type":"System.Single"},"$version":"A"},{"name":"direction","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"minimum","value":{"$content":-6.0,"$type":"System.Single"},"$version":"A"},{"name":"maximum","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":0.03,"$type":"System.Single"},"$version":"A"},{"name":"direction","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"minimum","value":{"$content":-6.0,"$type":"System.Single"},"$version":"A"},{"name":"maximum","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!95 &997455804
 Animator:
